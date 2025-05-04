@@ -461,9 +461,12 @@ def manage_context_size(session, max_messages: int = 20):
 async def root():
     return {"message": "MM A2A Ecommerce Chatbot API đang hoạt động"}
 
-@app.get("/api/health")
+@app.get("/health")
 async def health_check():
-    return {"status": "ok", "service": "MM A2A Ecommerce Chatbot API"}
+    """
+    Endpoint kiểm tra sức khỏe cho Render
+    """
+    return {"status": "healthy", "timestamp": datetime.now().isoformat()}
 
 @app.post("/api/auth-llm")
 @app.get("/api/auth-llm")
