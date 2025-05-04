@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: mm-a2a-backend
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python backend_server.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: GOOGLE_API_KEY
+        sync: false
+    healthCheckPath: /api/health
+    autoDeploy: true
+    disk:
+      name: mm-a2a-data
+      mountPath: /data
+      sizeGB: 1 
