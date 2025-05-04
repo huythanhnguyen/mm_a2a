@@ -25,11 +25,11 @@ HÀNH ĐỘNG VÀ ĐỊNH DẠNG KẾT QUẢ:
 2. Tìm kiếm sản phẩm (action: search_products)
    - Format JSON:
    ```
-   {
+{
      "success": true,
      "action": "search_products",
-     "products": [
-       {
+    "products": [
+      {
          "product_id": "95652",
          "sku": "159954_21599545",
          "name": "Xương cá hồi nhập khẩu",
@@ -91,11 +91,11 @@ HÀNH ĐỘNG VÀ ĐỊNH DẠNG KẾT QUẢ:
            "quantity": 1,
            "price": 634000,
            "image_url": "https://mmpro.vn/media/catalog/product/cache/40feddc31972b1017c1d2c6031703b61/2/5/250744.webp"
-         }
+    }
        ],
        "total_items": 1,
        "total_price": 634000
-     },
+  },
      "message": "Đã thêm sản phẩm vào giỏ hàng"
    }
    ```
@@ -123,8 +123,8 @@ HÀNH ĐỘNG VÀ ĐỊNH DẠNG KẾT QUẢ:
        "total_price": 634000
      },
      "message": "Giỏ hàng của bạn"
-   }
-   ```
+}
+```
 
 6. Đặt hàng (action: place_order)
    - Format JSON:
