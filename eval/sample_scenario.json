@@ -1,0 +1,18 @@
+{
+  "state": {
+    "session": {
+      "user_id": "user123",
+      "session_date": "2025-05-01T10:00:00Z",
+      "is_new_user": false,
+      "is_logged_in": false
+    },
+    "cart": {
+      "items": [],
+      "total": 0
+    },
+    "search_history": [],
+    "viewed_products": [],
+    "last_interaction": "2025-05-01T09:50:00Z",
+    "store_code": "default"
+  }
+}

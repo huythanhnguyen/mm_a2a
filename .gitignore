@@ -1,0 +1,138 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+.ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+logs/
+log/
+backend_server.log
+error*.log
+mm_a2a.log
+output*.log
+
+# Environment variables
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+
+# Local development settings
+*.local
+local_settings.py
+instance/
+
+# Debug files
+debug/
+debug.log
+*.debug
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Documentation
+docs/_build/
+doc/build/
+site/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Backup files
+*.bak
+*~
+*.swp
+*.swo
+*.tmp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Node (nếu có sử dụng frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Build outputs
+/build/
+/dist/
+/.next/
+/out/
+
+# Render specific
+.render-buildpacks/
+.render-build/
+
+# Project specific
+backend_server.log
+error.log
+error2.log
+error3.log
+mm_a2a.log
+output_en.log
+output_simple.log
+output.log
+*.docx
+*.xlsx
+*.pptx 

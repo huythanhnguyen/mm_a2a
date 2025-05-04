@@ -1,0 +1,41 @@
+# Thư viện cốt lõi
+google-adk=0.3.0
+google-api-python-client>=2.100.0
+google-auth>=2.22.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+
+# Thư viện cho API client
+requests>=2.31.0
+aiohttp>=3.8.5
+
+# Thư viện cho web server (nếu cần)
+flask>=2.3.3
+flask-cors>=4.0.0
+gunicorn>=21.2.0
+
+# Tiện ích
+python-dotenv>=1.0.0
+pydantic>=2.4.2
+tenacity>=8.2.3
+pytz>=2023.3
+validators>=0.22.0
+
+# Xử lý dữ liệu
+pandas>=2.1.1
+
+# Logging & giám sát
+loguru>=0.7.0
+
+# Testing
+pytest>=7.4.2
+pytest-cov>=4.1.0
+responses>=0.23.3
+
+# Linting & formatting
+black>=23.9.1
+flake8>=6.1.0
+isort>=5.12.0
+
+# Xác thực và bảo mật
+PyJWT>=2.8.0
